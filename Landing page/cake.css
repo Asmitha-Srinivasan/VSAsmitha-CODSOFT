@@ -1,0 +1,161 @@
+* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+  background-image:url('https://t3.ftcdn.net/jpg/06/81/72/52/360_F_681725287_o458uNRANFCCHdxgwe9PkFDse77oBT88.jpg');
+  background-size:contain;
+    background-color: #ffcc99;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.treats {
+  background-image:url('https://t3.ftcdn.net/jpg/06/81/72/52/360_F_681725287_o458uNRANFCCHdxgwe9PkFDse77oBT88.jpg');
+  background-size: contain;
+   background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.treats h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.treats-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.treat {
+    width: 30%;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.treat img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.treat h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.treat p {
+    color: #777;
+}
+
+.why-choose {
+  background-image:url('https://t3.ftcdn.net/jpg/06/81/72/52/360_F_681725287_o458uNRANFCCHdxgwe9PkFDse77oBT88.jpg');
+    background-size: contain;
+    background-color: #fafafa;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.why-choose h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reason {
+    width: 30%;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reason h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact {
+  background-image:url('https://getwallpapers.com/wallpaper/full/5/0/4/732175-free-download-cute-cupcake-backgrounds-1920x1200.jpg');
+    background-size: contain;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
